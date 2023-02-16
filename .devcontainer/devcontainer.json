@@ -1,0 +1,17 @@
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT License.
+{
+    "name": "Node.js & Yarn",
+    "image": "ubuntu:latest",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "appPort": [3000],
+    "extensions": [
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "ms-vscode.js-debug",
+        "psioniq.psi-header",
+        "stylelint.vscode-stylelint"
+    ]
+}
